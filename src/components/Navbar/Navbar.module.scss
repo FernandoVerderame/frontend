@@ -1,0 +1,25 @@
+nav {
+    height: 60px;
+
+    .logo {
+        width: 40px;
+        height: 40px;
+        display: block;
+
+    }
+
+    li {
+        font-size: 18px;
+        font-weight: 600;
+        text-transform: uppercase;
+
+        .active {
+            border-bottom: 2.5px solid white;
+        }
+    }
+
+    .login {
+        color: white;
+        background-color: #c6a47e;
+    }
+}
